@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!-- Reto 1 Lenguaje de Marcas "Web terminal de autobuses" | Israel Sousa y Aitor Martinez -->
+<!--
+Las características generales de nuestra web serán:
+
+•	Uso “responsive”. La web se adaptará al cambiar el tamaño de la pantalla donde se visualiza.
+•	Validación completa de todas las páginas.
+•	El sitio tendrá como página inicial una página de nombre index.html; y tendrá como mínimo 3 páginas.
+•	Los enlaces para moverse entre las páginas del sitio deben de ser claramente visibles y permitir ir de una página a otra con facilidad. 
+•	El contenido de las diferentes páginas deberá ser coherente a la temática seleccionada y el formato deberá ser uniforme.
+•	La web no tendrá menos de 500 palabras de extensión en total; no debe haber errores de ortografía.
+•	Obligatorio el uso de flexbox para organizar el contenido de cada página. Al menos deberá haber 4 bloques en cada página web (cabecera, menú, contenido y pie). Además, en al menos una página el contenido tendrá 3 columnas. La web se adaptará al cambiar el tamaño de la pantalla donde se visualiza
+•	Respecto al diseño de la web, todas las páginas de contenidos tendrán una hoja de donde se definirán todos los estilos de las páginas. No se van a poner etiquetas de estilo (style) dentro de los documentos web. 
+•	Las imágenes, videos u otros elementos multimedia estarán organizados en diferentes carpetas en el mismo directorio que los documentos web y tendrán un nombre que evite errores en su localización. 
+
+Pestañas:
+●	Pestañas, con imágenes y descripciones y opciones de compra.
+●	Pestaña de gestión de usuario, formulario de incidencias, pedidos .
+●	Pestaña sobre la compañía, donde aparece información importante del negocio.
+●	Otros
+-->
+
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Página principal - AitorIsra Vending</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/estilo_principal.css">
+        <link rel="icon" type="image/x-icon" href="../imagenes/icono/favicon.ico"> 
+    </head>
+
+    <body>
+       <!--Cabecera de la página principal-->
+       <header><img src="../imagenes/logos/vector-logo-vending-machine-food-drinks-vector-logo-vending-machine-food-170622778(1).jpg"><p>AitorIsra Vending</p></header>
+       <nav>
+            <ul>
+                <li><a href="pagina1_noticias.html">Noticias</a></li>
+                <li><a href="pagina2_servicios.html">Servicios</a></li>
+                <li><a href="pagina3_compraOnline.html">Compra Online</a></li>
+                <li style="float:right"><a class="active" href="pagina7_sobreNosotros.html">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+       <div id="contenido">
+           <table>
+            <tbody>
+                <tr class="titulos">
+                    <td>Productos Saludables</td>
+                    <td>Bebidas</td>
+                    <td>Cafeteras</td>
+                </tr>
+                <tr>
+                    <td id="productos_saludables"><a href="pagina4_ProSalu.html"><img src="../imagenes/Imágenes recortadas/alimentos-saudades-funcionais-900x600-1.png"></a></td>
+                    <td id="bebidas"><a href="pagina5_Bebidas.html"><img src="../imagenes/Imágenes recortadas/gaseosas-imagen-2.png"></a></td>
+                    <td id="cafeteras"><a href="pagina6_Cafeteras.html"><img src="../imagenes/Imágenes recortadas/mike-kenneally-46284-unsplash-scaled.png"></a></td>
+                </tr>
+            </tbody>
+           </table>
+       </div>
+       <footer><p>· Tlf: <i>+34 675 39 13 11</i> | · Dirección: <i>Calle Avenida Galván, Bilbao</i> | · Formulario de contacto: <a href="pagina8_formulario.html" target="_blank"><i>Formulario</i></a><p></footer>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario - AitorIsra Vending</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/estilo_pagina8.css">
+        <link rel="icon" type="image/x-icon" href="../imagenes/icono/favicon.ico"> 
+    </head>
+    <body>
+        <!--Cabecera de la página principal-->
+        <header><a href="index.html"><img alt="Volver al inicio" src="../imagenes/logos/vector-logo-vending-machine-food-drinks-vector-logo-vending-machine-food-170622778(1).jpg"></a><p>Formulario</p></header>
+        <nav>
+        Formulario de contacto - AitorIsra Vending
+        </nav>
+        <div id="contenido">
+            <form>
+                <label for="nombre">Nombre: <b>*</b></label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="apellidos">Apellidos: <b>*</b></label><br>
+                <input type="text" id="apellidos" name="apellidos" required><br>
+                <label for="telefono">Telefono:</label><br>
+                <input type="tel" id="telefono" name="telefono"><br>
+                <label for="email">Email: <b>*</b></label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <div id="tipoProblema">
+                    <label for="tipoProblema">Tipo de problema:</label><br>
+                    <input type="radio" id="1" name="tipoProblema" value="1">
+                    <label for="1">Problema con las máquinas.</label><br>
+                    <input type="radio" id="2" name="tipoProblema" value="2">
+                    <label for="2">Problema con la página web.</label><br>
+                    <input type="radio" id="3" name="tipoProblema" value="3">
+                    <label for="3">Problema con los productos.</label><br>
+                    <input type="radio" id="4" name="tipoProblema" value="4">
+                    <label for="4">Otro.</label>
+                </div>
+                
+                <label for="problema">Explique su problema/razón de contacto aquí: <b>*</b></label><br>
+                <textarea  id="problema" name="problema" rows="5" columns="20" required></textarea><br>
+                <div id="final_form">
+                    <input type="submit" value="Enviar" id="enviar_restaurar" onclick="alert('Formulario enviado')">
+                    <input type="reset" value="Restaurar" id="enviar_restaurar">
+                </div>
+                <p id="expli">( <b>*</b> &rightarrow; campo obligatorio )</p>
+            </form>
+        </div>
+        <footer><p>· Tlf: <i>+34 675 39 13 11</i> | · Dirección: <i>Calle Avenida Galván, Bilbao</i><p></footer>
+     </body>
+</html>
