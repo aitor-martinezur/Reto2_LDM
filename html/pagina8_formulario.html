@@ -20,15 +20,23 @@
         Formulario de contacto - AitorIsra Vending
         </nav>
         <div id="contenido">
-            <form>
+            <form name="formularioContacto">
                 <label for="nombre">Nombre: <b>*</b></label><br>
-                <input type="text" id="nombre" name="nombre" required><br>
+                <input type="text" id="nombre" name="nombre" required>
+                <!-- Mensaje de error para campo "Nombre"-->
+                <label name=errorNombre type="text" id="error" style="display:none"></label><br>
                 <label for="apellidos">Apellidos: <b>*</b></label><br>
-                <input type="text" id="apellidos" name="apellidos" required><br>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <!-- Mensaje de error para campo "Apellidos"-->
+                <label name=errorApellidos type="text" id="error" style="display:none">Apellidos incorrectos</label><br>
                 <label for="telefono">Telefono:</label><br>
-                <input type="tel" id="telefono" name="telefono"><br>
+                <input type="tel" id="telefono" name="telefono">
+                <!-- Mensaje de error para campo "Teléfono"-->
+                <label name=errorTlfno type="text" id="error" style="display:none">Teléfono incorrecto</label><br>
                 <label for="email">Email: <b>*</b></label><br>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" name="email" required>
+                <!-- Mensaje de error para campo "email"-->
+                <label name=errorEmail type="text" id="error" style="display:none">Email incorrecto</label><br>
                 
                 <div id="tipoProblema">
                     <label for="tipoProblema">Tipo de problema:</label><br>
@@ -41,7 +49,10 @@
                     <input type="radio" id="4" name="tipoProblema" value="4">
                     <label for="4">Otro.</label>
                 </div>
-                
+                <!-- Mensaje de error para radiobutton-->
+                <label name=errorRadio type="text" id="errorRadio" style="display:none">Debe seleccionar una opción</label>
+                <br>
+
                 <label for="problema">Explique su problema/razón de contacto aquí: <b>*</b></label><br>
                 <textarea  id="problema" name="problema" rows="5" columns="20" required></textarea><br>
                 <div id="final_form">

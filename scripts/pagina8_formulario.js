@@ -18,19 +18,48 @@ window.onload=function(){
 
 /* Función para comprobar los datos y enviarlos */
 function comprobar () {
-    /* Comprueba el campo "Nombre" */
+    var formularioCorrecto = true;
+
+    /***********
+     * RECOGIDA
+     ***********/
+
+    /* Recoge el contenido del campo "Nombre" */
     var nombre = document.getElementById("nombre").value;
 
-    /* Comprueba el campo "Apellidos" */
-    var nombre = document.getElementById("apellidos").value;
+    /* Recoge el contenido del campo "Apellidos" */
+    var apellidos = document.getElementById("apellidos").value;
 
-    /* Comprueba el campo "Teléfono" */
-    var nombre = document.getElementById("telefono").value;
+    /* Recoge el contenido del campo "Teléfono" */
+    var telefono = document.getElementById("telefono").value;
 
-    /* Comprueba el campo "Email" */
-    var nombre = document.getElementById("email").value;
+    /* Recoge el contenido del campo "Email" */
+    var email = document.getElementById("email").value;
 
-    /* Comprueba si algún elemanto del radiobutton ha sido seleccionado */
+    /****************
+    *   COMPROBACIÓN
+    *****************/   
+
+    /* Comprueba el campo "nombre" */    
+     if(nombre.length == 0 || !input.value) {
+        /* Muestra el mensaje de error */ 
+        document.getElementById("nombre").style.display = "inline";
+        document.querySelector('nombre').innerText = 'Debe introducir un nombre de usuario';
+        /* pone la variable booleana en false*/
+        formularioCorrecto = false;        
+        //return;
+      }
+
+    /* Comprueba el campo "apellidos" */    
+     if(apellidos.length == 0) {
+        /* Muestra el mensaje de error */ 
+        document.getElementById("nombre").style.display = "inline";
+        /* pone la variable booleana en false*/
+        formularioCorrecto = false;        
+        //return;
+      }
+    
+    /* Comprueba si algún elemento del radiobutton ha sido seleccionado */
     var seleccionado = false;
     var elementos = document.getElementByName("tipoProblema");
     for (var i=0; i<elementos.length; i++) {
@@ -40,9 +69,24 @@ function comprobar () {
         }
     }
 
-    /* Muestra los mensajes de error en la pantalla */
+    /* Si ninguna opición seleccionada*/
+    if (seleccionado = false) {
+        formularioCorrecto = false;
+    }
 
+    /********************
+     * ENVIAR FORMULARIO
+     ********************/
 
+    /* Envía el formulario de ser correcto */
+    if (correcto == true) {
+        document.formularioContacto.submit();
+
+    /* Si es incorrecto */    
+    }else {
+
+   
+    }
 }
 
 /* Función para borrar todos los campos del formulario */

@@ -79,6 +79,16 @@ form{
     margin: 0 auto;
     width: 500px;
 }
+
+#error {
+    text-align: right;
+    color: rgb(255, 0, 0);
+}
+
+#errorRadio {
+    color: rgb(255, 0, 0);
+}
+
 label, input{
     padding-top: 5px;
     width: 500px;
