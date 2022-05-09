@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos attribute="value">
+    <producto>
+        <nombre>Barrita sustitutiva alta en proteina.</nombre>
+        <precio>5,99</precio>
+    </producto>
+    <producto>
+        <nombre>Harina de garbanzo.</nombre>
+        <precio>4,50</precio>
+    </producto>
+    <producto>
+        <nombre>Queso proteico rallado.</nombre>
+        <precio>7,99</precio>
+    </producto>
+</productos>

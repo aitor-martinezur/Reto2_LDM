@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos attribute="value">             
+    <producto>
+        <nombre>Botella de agua 1,5L FontVella.</nombre>
+        <precio>4,50</precio>
+    </producto>
+    <producto>
+        <nombre>Zumo de naranja Bio Casa Amella.</nombre>
+        <precio>6</precio>
+    </producto>
+    <producto>
+        <nombre>Lata de refresco sabor cola (Coca Cola).</nombre>
+        <precio>3</precio>
+    </producto>       
+</productos>

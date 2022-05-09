@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos attribute="value">             
+    <producto>
+        <nombre>Nescafé Shakissimo - Espresso Late.</nombre>
+        <precio>3,70</precio>
+    </producto>
+    <producto>
+        <nombre>Bebida de avena Aveia con Café.</nombre>
+        <precio>4,90</precio>
+    </producto>
+    <producto>
+        <nombre>Macchiato - Café Late.</nombre>
+        <precio>4</precio>
+    </producto>       
+</productos>
