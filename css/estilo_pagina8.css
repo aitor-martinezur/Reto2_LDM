@@ -80,7 +80,7 @@ form{
     width: 500px;
 }
 
-#error {
+#errorNombre, #errorApellidos, #errorTlfno, #errorEmail, #errorProblema {
     text-align: right;
     color: rgb(255, 0, 0);
 }
@@ -99,12 +99,20 @@ input{
 input#problema{
     height: 100px;
 }
-#enviar_restaurar{
+#enviar{
     width: 80px;
     margin-top: 10px;
     color: black;
     margin-left: 10px;
 }
+
+#restaurar{
+    width: 80px;
+    margin-top: 10px;
+    color: black;
+    margin-left: 10px;
+}
+
 #final_form{
     display: flex;
     flex-flow: row;
