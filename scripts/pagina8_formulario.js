@@ -31,7 +31,7 @@ function borrar() {
     document.getElementById("email").value = "";
 
     /* Pone en blanco el campo "problema" */
-    document.getElementById("problema").value = "";
+    document.getElementById("problemaText").value = "";
 
     var i;
     for (i = 0; i < formularioContacto.tipoProblema.length; i++) {
