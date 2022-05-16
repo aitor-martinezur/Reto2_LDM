@@ -189,7 +189,7 @@ div#texto1 {
      background-color: rgb(0, 46, 69); 
      display: flex;
      flex-flow: column;
-     height: 700px;
+     height: 1200px;
      width: 800;
      /*margin: auto;*/
      border: 3px solid rgb(38, 80, 100);
@@ -203,6 +203,27 @@ div#texto1 {
     background-color: #111;
 }
 
+#punto1,#punto2,#punto3{
+    /*PUNTOS DE VENTA*/
+    align-self: center;
+    color: white;
+}
+#punto1{
+    margin-top: 20px;
+}
+
+#punto1 span,#punto2 span,#punto3 span{
+    /*PUNTOS DE VENTA*/
+    margin-left: 20px;
+    font-size: small;
+    color: lightsteelblue;
+}
+#punto1 span:hover,#punto2 span:hover,#punto3 span:hover{
+    /*PUNTOS DE VENTA*/
+    margin-left: 20px;
+    font-size: small;
+    color: white;
+}
 /*Pie de página*/
  footer {
     background-color: rgb(231, 231, 230);
