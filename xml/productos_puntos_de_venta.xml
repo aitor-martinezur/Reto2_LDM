@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="estilo.css"?>
 <productos_puntos_venta>
-  <tienda id='T01'>
-    <nombre>Kiosko Gran Vía 17</nombre>
+  <tienda id="T01" nombre=" Kiosko Gran Vía 17">Kiosko 17    
     <producto>Producto de prueba 1</producto>
-    <producto>Producto de preuba 2</producto>    
+    <producto>Producto de prueba 2</producto>    
   </tienda>
-  <tienda id='T02'>
-    <nombre>Tienda de alimentos saludables</nombre>
+  <tienda id="T02" nombre="Tienda de alimentos saludables"> Alimentos Salu
     <producto>Producto de prueba 1</producto>
-    <producto>Producto de preuba 2</producto>    
+    <producto>Producto de prueba 2</producto>    
   </tienda> 
 </productos_puntos_venta>
