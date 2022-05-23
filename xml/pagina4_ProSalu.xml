@@ -1,15 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <productos attribute="value">
     <producto>
-        <nombre>Barrita sustitutiva alta en proteina.</nombre>
+        <nombre>Barrita sustitutiva alta en proteina</nombre>
         <precio>5,99</precio>
     </producto>
     <producto>
-        <nombre>Harina de garbanzo.</nombre>
+        <nombre>Harina de garbanzo</nombre>
         <precio>4,50</precio>
     </producto>
     <producto>
-        <nombre>Queso proteico rallado.</nombre>
+        <nombre>Queso proteico rallado</nombre>
         <precio>7,99</precio>
+		
+    </producto>
+	<producto>
+        <nombre>Manzana</nombre>
+        <precio>0,50</precio>
+    </producto>
+	 <producto>
+        <nombre>Yogur griego</nombre>
+        <precio>4,99</precio>
+    </producto>
+	 <producto>
+        <nombre>Pasta Carbonara</nombre>
+        <precio>7,99</precio>
+    </producto>
+		 <producto>
+        <nombre>Cacahuetes</nombre>
+        <precio>1,99</precio>
+    </producto>
+		 <producto>
+        <nombre>Almendras</nombre>
+        <precio>1,99</precio>
+    </producto>
+		 <producto>
+        <nombre>Nueces</nombre>
+        <precio>1,99</precio>
+    </producto>
+	<producto>
+        <nombre>Ensalada</nombre>
+        <precio>3,99</precio>
+    </producto>
+    <producto>
+        <nombre>Platano</nombre>
+        <precio>0,60</precio>
+    </producto>
+    <producto>
+        <nombre>Kiwi</nombre>
+        <precio>0,50</precio>
+    </producto>
+	<producto>
+        <nombre>Macarrones</nombre>
+        <precio>4,99</precio>
+    </producto>
+	 <producto>
+        <nombre>Macedonea</nombre>
+        <precio>3,99</precio>
+    </producto>
+	<producto>
+        <nombre>Queso</nombre>
+        <precio>1,99</precio>
+    </producto>
+    <producto>
+        <nombre>Jamon</nombre>
+        <precio>2,99</precio>
+    </producto>
+    <producto>
+        <nombre>Pipas</nombre>
+        <precio>1,50</precio>
+    </producto>
+	<producto>
+        <nombre>Mandarina</nombre>
+        <precio>1,99</precio>
+    </producto>
+	 <producto>
+        <nombre>Uva</nombre>
+        <precio>1,50</precio>
+    </producto>
+	<producto>
+        <nombre>Pistachos</nombre>
+        <precio>1,50</precio>
+    </producto>
+    <producto>
+        <nombre>Halls</nombre>
+        <precio>1,00</precio>
+    </producto>
+    <producto>
+        <nombre>Chicles</nombre>
+        <precio>1,00</precio>
+    </producto>
+	<producto>
+        <nombre>Galletas</nombre>
+        <precio>1,50</precio>
+    </producto>
+	 <producto>
+        <nombre>Chocolate /nombre>
+        <precio>2,00</precio>
+    </producto>
+		 <producto>
+        <nombre>Golosinas</nombre>
+        <precio>1,50</precio>
     </producto>
 </productos>
