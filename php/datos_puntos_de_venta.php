@@ -8,10 +8,10 @@
     error_reporting(E_ALL);
     
    $reglas = new DOMDocument();
-   $reglas->load("datos_puntos_de_venta.xslt");
+   $reglas->load("../xsl/pagina9_puntosDeVenta.xsl");
 
    $datos = new DOMDocument();
-   $datos->load("datos.xml");
+   $datos->load("../xml/pagina9_puntosDeVenta.xml");
 
      /*
     Generamos un "motor" para aplicar esas reglas.
