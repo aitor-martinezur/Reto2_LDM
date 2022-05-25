@@ -6,11 +6,13 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <script src="../scripts/pagina8_formulario.js"></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Formulario de contacto</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/estilo_pagina8.css">
+        
         <link rel="icon" type="image/x-icon" href="../imagenes/icono/favicon.ico"> 
     </head>
     <body>
@@ -24,19 +26,19 @@
                 <label for="nombre">Nombre: <b>*</b></label><br>
                 <input type="text" id="nombre" name="nombre" required>
                 <!-- Mensaje de error para campo "Nombre"-->
-                <label name=errorNombre type="text" id="error" style="display:none"></label><br>
+                <label name=errorNombre type="text" id="errorNombre" style="display:none"></label><br>
                 <label for="apellidos">Apellidos: <b>*</b></label><br>
                 <input type="text" id="apellidos" name="apellidos" required>
                 <!-- Mensaje de error para campo "Apellidos"-->
-                <label name=errorApellidos type="text" id="error" style="display:none">Apellidos incorrectos</label><br>
+                <label name=errorApellidos type="text" id="errorApellidos" style="display:none"></label><br>
                 <label for="telefono">Telefono:</label><br>
                 <input type="tel" id="telefono" name="telefono">
                 <!-- Mensaje de error para campo "Teléfono"-->
-                <label name=errorTlfno type="text" id="error" style="display:none">Teléfono incorrecto</label><br>
+                <label name=errorTlfno type="text" id="errorTlfno" style="display:none"></label><br>
                 <label for="email">Email: <b>*</b></label><br>
                 <input type="email" id="email" name="email" required>
                 <!-- Mensaje de error para campo "email"-->
-                <label name=errorEmail type="text" id="error" style="display:none">Email incorrecto</label><br>
+                <label name=errorEmail type="text" id="errorEmail" style="display:none"></label><br>
                 
                 <div id="tipoProblema">
                     <label for="tipoProblema">Tipo de problema:</label><br>
@@ -50,14 +52,17 @@
                     <label for="4">Otro.</label>
                 </div>
                 <!-- Mensaje de error para radiobutton-->
-                <label name=errorRadio type="text" id="errorRadio" style="display:none">Debe seleccionar una opción</label>
+                <label name=errorRadio type="text" id="errorRadio" style="display:none"></label>
                 <br>
 
-                <label for="problema">Explique su problema/razón de contacto aquí: <b>*</b></label><br>
-                <textarea  id="problema" name="problema" rows="5" columns="20" required></textarea><br>
+                <label for="problema">Explique su problema/razón de contacto aquí: <b>*</b></label>
+                <textarea  id="problemaText" name="problemaText" rows="5" columns="20"></textarea>
+                <!-- Mensaje de error para textarea-->
+                <label name=errorProblema type="text" id="errorProblema" style="display:none"></label><br>
+
                 <div id="final_form">
-                    <input type="submit" value="Enviar" id="enviar_restaurar" onclick="alert('Formulario enviado')">
-                    <input type="reset" value="Restaurar" id="enviar_restaurar">
+                    <input type="button" value="Enviar" id="enviar">
+                    <input type="button" value="Restaurar" id="restaurar">
                 </div>
                 <p id="expli">( <b>*</b> &rightarrow; campo obligatorio )</p>
             </form>

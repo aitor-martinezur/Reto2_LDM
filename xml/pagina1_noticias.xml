@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias attribute="value">    
+    <noticia>
+        <titulo>Pioneros en vending saludable</titulo>
+        <contenido>
+            AitorIsra Vending lanza sus máquinas de vending saludable y alternativo en una acción pionera junto al Hospital de Basurto. La creciente demanda de los usuarios de productos más sanos y aptos para celíacos y diabéticos ha revolucionado el sector del vending saludable.
+
+            Somos pioneros en ofrecer este servicio de vending íntegramente saludable. Esta labor se ha visto reconocida por los medios como una estupenda iniciativa para combatir la obesidad en la población con máquinas vending al mejore precio.
+        </contenido>
+    </noticia>
+    <noticia>
+        <titulo>Técnicas de mantenimiento efectivo</titulo>
+        <contenido>
+            Cuando haces uso de máquinas, instalaciones y aparatos para tu trabajo, su vida útil se va reduciendo con el tiempo, se van desgastando y deteriorando. Si no implementas un servicio de mantenimiento a tus aparatos, va a llegar el momento en el que van a dejar de funcionar y probablemente será imposible de reparar y tendrás que comprar uno nuevo.
+        </contenido>
+    </noticia>
+    <noticia>
+        <titulo>SuperProyecto de neveras solidarias</titulo>
+        <contenido>
+            Alrededor de 9 millones de toneladas de comida se desperdician en España año tras año. 21.000 toneladas de alimentos se destruyen diariamente en nuestro país. Un tercio del total de alimentos se estropea o desecha antes de ser consumido por las personas. El 40% de la comida que se produce acaba en la basura… sobran razones para la movilización, es más, luchar activamente contra el despilfarro de alimentos es hoy, más que nunca, un imperativo categórico de supervivencia para el ser humano.
+        </contenido>
+    </noticia>
+    <noticia>
+        <titulo>Máquinas expendedoras de "likes"</titulo>
+        <contenido>
+            En un centro comercial de Rusia apareció una curiosa maquina expendedora, la cual ofrece nada menos que seguidores y "Likes" para alimentar nuestro perfil de Instagram y Vkontakte (VK). Es decir que a través de una transacción monetaria, que en este caso son a partir de 100 rublos, (aproximadamente 1,19 €) las personas fácilmente se podrán hacer con 100 "Likes" o 100 seguidores nuevos instantáneamente.
+        </contenido>
+    </noticia> 
+</noticias>
