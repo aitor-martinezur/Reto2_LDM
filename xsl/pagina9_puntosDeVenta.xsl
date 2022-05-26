@@ -4,11 +4,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html"/>
      <xsl:template match="puntosDeVenta">
+     <!--Link del css para el xml/xsl-->
+     <link rel="stylesheet" type="text/css" href="../css/tabla_xml/tablaxml.css"/>
+     <h1>Información puntos de venta</h1>
+     <!--Imprime una tabla por cada punto de venta que haya en el xml-->
       <xsl:for-each select="puntoDeVenta">
-        <table border="1">
+            <table border="1">
               <tr>
-                   <td width="200">Nombre</td>
-                   <td><xsl:value-of select="nombre"/></td>
+                   <td width="200" id="nombre">Nombre</td>
+                   <td id="nombre"><xsl:value-of select="nombre"/></td>
               </tr>
               <tr>
                    <td width="200">Dirección</td>
