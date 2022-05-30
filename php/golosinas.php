@@ -7,7 +7,7 @@
     error_reporting(E_ALL);
     
    $reglas = new DOMDocument();
-   $reglas->load("../xsl/pagina4_ProSalu.xsl");
+   $reglas->load("../xsl/golosinas.xsl");
 
    $datos = new DOMDocument();
    $datos->load("../xml/pagina4_ProSalu.xml");
