@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/gorka/OneDrive/Documentos/GitHub/Reto2_LDM/xsl/pagina4_ProSalu.xsl"?>
 <productos attribute="value">
     <producto>
         <nombre>Barrita sustitutiva alta en proteina</nombre>
         <precio>5,99</precio>
     </producto>
-    <producto>
+  <producto>
         <nombre>Harina de garbanzo</nombre>
         <precio>4,50</precio>
     </producto>
@@ -93,10 +94,10 @@
         <precio>1,50</precio>
     </producto>
 	 <producto>
-        <nombre>Chocolate /nombre>
+        <nombre>Chocolate </nombre>
         <precio>2,00</precio>
     </producto>
-		 <producto>
+    <producto>
         <nombre>Golosinas</nombre>
         <precio>1,50</precio>
     </producto>
