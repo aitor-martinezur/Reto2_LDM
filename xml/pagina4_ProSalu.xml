@@ -2,103 +2,128 @@
 <?xml-stylesheet type="text/xsl" href="file:/C:/Users/gorka/OneDrive/Documentos/GitHub/Reto2_LDM/xsl/pagina4_ProSalu.xsl"?>
 <productos attribute="value">
     <producto>
-        <nombre>Barrita sustitutiva alta en proteina</nombre>
+        <nombre id="p01">Barrita sustitutiva alta en proteina</nombre>
         <precio>5,99</precio>
+        <categoria>Cereal</categoria>
     </producto>
   <producto>
-        <nombre>Harina de garbanzo</nombre>
+        <nombre id="p02">Harina de garbanzo</nombre>
         <precio>4,50</precio>
+        <categoria>Cereal</categoria>
     </producto>
     <producto>
-        <nombre>Queso proteico rallado</nombre>
+        <nombre id="p03">Queso proteico rallado</nombre>
         <precio>7,99</precio>
+        <categoria>Lacteos</categoria>
     </producto>
 	<producto>
-        <nombre>Manzana</nombre>
+        <nombre id="p04">Manzana</nombre>
         <precio>0,50</precio>
+        <categoria>Verduras</categoria>
     </producto>
 	 <producto>
-        <nombre>Yogur griego</nombre>
+        <nombre id="p05">Yogur griego</nombre>
         <precio>4,99</precio>
+        <categoria>Lacteos</categoria>
     </producto>
 	 <producto>
-        <nombre>Pasta Carbonara</nombre>
+         <nombre id="p06">Pasta Carbonara</nombre>
         <precio>7,99</precio>
+        <categoria>Lacteos</categoria>
     </producto>
 		 <producto>
-        <nombre>Cacahuetes</nombre>
+         <nombre id="p07">Cacahuetes</nombre>
         <precio>1,99</precio>
+        <categoria>Cereal</categoria>
     </producto>
 		 <producto>
-        <nombre>Almendras</nombre>
+        <nombre id="p08">Almendras</nombre>
         <precio>1,99</precio>
+        <categoria>Cereal</categoria>
     </producto>
 		 <producto>
-        <nombre>Nueces</nombre>
+        <nombre id="p09">Nueces</nombre>
         <precio>1,99</precio>
+        <categoria>Cereal</categoria>
     </producto>
 	<producto>
-        <nombre>Ensalada</nombre>
+         <nombre id="p10">Ensalada</nombre>
         <precio>3,99</precio>
+        <categoria>Verduras</categoria>
     </producto>
     <producto>
-        <nombre>Platano</nombre>
+        <nombre id="p11">Platano</nombre>
         <precio>0,60</precio>
+        <categoria>Verduras</categoria>
     </producto>
     <producto>
-        <nombre>Kiwi</nombre>
+        <nombre id="p12">Kiwi</nombre>
         <precio>0,50</precio>
+        <categoria>Verduras</categoria>
     </producto>
 	<producto>
-        <nombre>Macarrones</nombre>
+         <nombre id="p13">Macarrones</nombre>
         <precio>4,99</precio>
+        <categoria>Cereal</categoria>
     </producto>
 	 <producto>
-        <nombre>Macedonea</nombre>
+       <nombre id="p14">Macedonea</nombre>
         <precio>3,99</precio>
+        <categoria>Verduras</categoria>
     </producto>
 	<producto>
-        <nombre>Queso</nombre>
+       <nombre id="p15">Queso</nombre>
         <precio>1,99</precio>
+        <categoria>Lacteos</categoria>
     </producto>
     <producto>
-        <nombre>Jamon</nombre>
+        <nombre id="p16">Jamon</nombre>
         <precio>2,99</precio>
+        <categoria>Embutidos</categoria>
     </producto>
     <producto>
-        <nombre>Pipas</nombre>
+        <nombre id="p17">Pipas</nombre>
         <precio>1,50</precio>
+        <categoria>Cereal</categoria>
     </producto>
 	<producto>
-        <nombre>Mandarina</nombre>
+        <nombre id="p18">Mandarina</nombre>
         <precio>1,99</precio>
+        <categoria>Verduras</categoria>
     </producto>
 	 <producto>
-        <nombre>Uva</nombre>
+        <nombre id="p19">Uva</nombre>
         <precio>1,50</precio>
+        <categoria>Verduras</categoria>
     </producto>
 	<producto>
-        <nombre>Pistachos</nombre>
+        <nombre id="p20">Pistachos</nombre>
         <precio>1,50</precio>
+        <categoria>Cereal</categoria>
     </producto>
     <producto>
-        <nombre>Halls</nombre>
+        <nombre id="p21">Halls</nombre>
         <precio>1,00</precio>
+        <categoria>Golosinas</categoria>
     </producto>
     <producto>
-        <nombre>Chicles</nombre>
+        <nombre id="p22">Chicles</nombre>
         <precio>1,00</precio>
+        <categoria>Golosinas</categoria>
     </producto>
 	<producto>
-        <nombre>Galletas</nombre>
+        <nombre id="p23">Galletas</nombre>
         <precio>1,50</precio>
+        <categoria>Golosinas</categoria>
     </producto>
 	 <producto>
-        <nombre>Chocolate </nombre>
+        <nombre id="p24">Chocolate </nombre>
         <precio>2,00</precio>
+        <categoria>Golosinas</categoria>
     </producto>
     <producto>
-        <nombre>Golosinas</nombre>
+        <nombre id="p25">Golosinas</nombre>
         <precio>1,50</precio>
+        <categoria>Golosinas</categoria>
     </producto>
 </productos>

@@ -1,52 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<!-- Poner la ruta de donde queremos coger la información -->
-<xsl:template match="../xml/pagina9_puntosDeventa.xml">
-<html><head>
-  <title>Nuestros puntos de venta</title>
-</head>
-<body>
-  <xsl:template match="puntoDeVenta">
-  <h2><xsl:value-of select="nombre"/></h2>
+<xsl:output method="html"/>
+     <xsl:template match="puntosDeVenta">
 
-  <!--Texto de servicios-->
-  <div id="cajaPrincipal">
-    <ul id="tiendas">
-        <li id="Tienda"><a href="../php/puntos_de_venta.php">Tienda 1</a></li>
-        <li id="Tienda"><a href="/php/productos_puntos_de_venta.php">Tienda 2</a></li> 
-        <li id="Tienda"><a href="/php/productos_puntos_de_venta.php">Tienda 3</a></li> 
-        <li id="Tienda"><a href="/php/productos_puntos_de_venta.php">Tienda 4</a></li> 
-        <li id="Tienda"><a href="/php/productos_puntos_de_venta.php">Tienda 5</a></li> 
-        <li id="Tienda"><a href="/php/productos_puntos_de_venta.php">Tienda 6</a></li>  
-    </ul>
-  </div>
-  </body>
-  </html>
+     <html>
+     <head>
+      <title>Puntos de venta y sus productos</title>
+     <!--Link del css para el xml/xsl-->
+     <link rel="stylesheet" type="text/css" href="../css/tiendas.css"/>
+     <h1>Seleccione el punto de venta en el que desea hacer la compra</h1>
+       </head>     
+      <body>
+
+      <nav>
+            <ul>
+                <li><a href="../html/index.html">Inicio</a></li>
+                <li id="descripcion_pagina">Puntos de venta y sus prodcutos</li>
+             </ul>
+         </nav>
+
+      <div id="principal">
+      <!--Imprime una caja con una tabla por cada punto de venta que haya en el xml-->
+      <xsl:for-each select="puntoDeVenta">
+        <div>
+             <p width="200" id="nombre"><xsl:value-of select="nombre"/></p>         
+             <p><xsl:value-of select="direccion"/></p>
+             <p><xsl:value-of select="localidad"/></p>
+                
+             <a><xsl:attribute name="href"><xsl:value-of select="productos"/></xsl:attribute>Ver productos</a>
+            
+             <background-image>         
+               <xsl:attribute name="src"><xsl:value-of select="imagen"/></xsl:attribute>
+             </background-image> 
+        
+        </div>  
+        <br></br>
+      </xsl:for-each>
+      </div>
+      </body>
+      </html>
   </xsl:template>
-
-
-
-
-<!-- <table id="{nombre}">
-   <tr>
-     <th colname="id">ID</th>
-     <th colname="nombre">Nombre</th>
-   </tr>
-   <tbody> -->
-     <!-- add a row for each pet in this category -->
-     <!-- <xsl:for-each select="puntoDeVenta">
-       <tr>
-         <td colname="nombre"><xsl:value-of select="nombre"/></td>
-       </tr>
-     </xsl:for-each>
-   </tbody>
- </table> -->
-</xsl:template>
-
-<!-- ignore the content of other tags because we processed them elsewhere -->
-<xsl:template match="*">
-<!-- do nothing -->
-</xsl:template>
-
 </xsl:stylesheet>

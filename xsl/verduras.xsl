@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
      <xsl:template match="productos">
      <!--Link del css para el xml/xsl-->
      <link rel="stylesheet" type="text/css" href="../css/tabla_xml/productos.css"/>
-     <h1>Lista de productos disponibles</h1>
+     <h1>Productos de la tienda: Verduras</h1>
 
      <nav>
             <ul>
@@ -16,20 +16,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
          </nav>
          
      <!--Imprime una tabla por cada punto de venta que haya en el xml-->
-      <xsl:for-each select="producto">
+      <xsl:for-each select="producto[categoria = 'Verduras']">
             <table border="1">
               <tr>
-                   <td width="200" id="nombre">Nombre</td>
+                   <td width="200" id="nombre">Nombre del producto</td>
                    <td id="nombre"><xsl:value-of select="nombre"/></td>
               </tr>
               <tr>
-                   <td width="200">Precio</td>
+                   <td width="200">Precio del producto</td>
                    <td><xsl:value-of select="precio"/></td>
-              </tr>
-              <tr>
-                   <td width="50">Categoría</td>
-                   <td><xsl:value-of select="categoria"/></td>
-              </tr>             
+              </tr>              
         </table>
         <br></br>
       </xsl:for-each>
