@@ -7,10 +7,10 @@
     error_reporting(E_ALL);
     
    $reglas = new DOMDocument();
-   $reglas->load("puntos_de_venta.xsl");
+   $reglas->load("../xsl/pagina9_puntosDeVenta.xsl");
 
    $datos = new DOMDocument();
-   $datos->load("datos.xml");
+   $datos->load("../xml/pagina9_puntosDeventa.xml");
    /*
     Generamos un "motor" para aplicar esas reglas.
     Le cargamos las reglas de transformación
