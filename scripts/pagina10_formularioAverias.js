@@ -25,10 +25,10 @@ function borrar() {
     document.getElementById("apellidos").value = "";
 
     /* Pone en blanco el campo "telefono" */
-    document.getElementById("telefono").value = "";
+   // document.getElementById("telefono").value = "";
 
     /* Pone en blanco el campo "nombre" */
-    document.getElementById("email").value = "";
+  //  document.getElementById("email").value = "";
 
     /* Pone en blanco el campo "problema" */
     document.getElementById("problemaText").value = "";

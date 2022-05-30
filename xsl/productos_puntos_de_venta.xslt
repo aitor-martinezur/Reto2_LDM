@@ -2,7 +2,7 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <!-- handle the root XML element -->
-<xsl:template match="/">
+<xsl:template match="/productos_puntos_de_venta/tienda">
 <html><head>
   <title>Puntos de venta y sus productos</title>
 </head>
@@ -25,12 +25,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
    </tr>
    <tbody>
      <!-- add a row for each pet in this category -->
-     <xsl:for-each select="pet">
+     <xsl:for-each select="tienda">
        <tr>
          <td colname="id"><xsl:value-of select="@id"/></td>
          <td colname="name"><xsl:value-of select="@nombre"/></td>
-         <td colname="vaccinated"><xsl:value-of select="@vaccineStatus"/></td>
-         <td colname="health"><xsl:value-of select="@healthStatus"/></td>
+         <td colname="producto"><xsl:value-of select="@producto"/></td>
        </tr>
      </xsl:for-each>
    </tbody>

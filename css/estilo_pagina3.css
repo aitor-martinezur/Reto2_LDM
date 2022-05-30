@@ -195,6 +195,18 @@ div#texto1 {
      border: 3px solid rgb(38, 80, 100);
  }
 
+ li#Tienda{
+    height: 300px;
+    width:250px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 7px;
+    /*Centra la imagen*/
+    margin-left: 5%;
+    margin-top: 3%;
+    /*Sombra*/
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.212);
+}
+
 .active {
     background-color: #333;
     border: 1px solid rgb(255, 255, 255);
